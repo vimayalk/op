@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Rent a Book</title>
+	<title>Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -18,64 +18,63 @@
 
 <body>
 
-
-  
 <div class="container">
 	
-  <div class="page-header" id="books">
-  		<h2 class="text-capitalize">places must visit</h2>
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+      <h2 class="text-capitalize ">Sports</h2>
   </div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     
-  	<center>
-  		<div  class="book_mainDiv"> 
-  			<img class="img-responsive"  src="book%20shop.jpg">
+  <h3>Michael Jordan</h3>
+  <h4>
+    <mark  class="header_entrepreneur">
+    <i>
+      <sup><i class="fa fa-quote-left"></i></sup>
+      Never say never because limits, like fears, are often just illusions.
+        <!-- Add class fa fa-quote-right  below-->
+      <sup><i class="fa fa-quote-right "></i></sup>
+      </i>
+    </mark>
+  </h4>
 
-  			<h4 class="text-capitalize"><kbd>BOOK SHOP</kbd></h4>
-  			
-  			<hr >
-            
-           <!-- Add the "text-capitalize" class 
-            along with "text-success text-left"-->
-            <h5 class="text-success text-left text-capitalize " >the greatest ever book shop in the world</h5>
+</div>
 
-  			<p class="text-muted text-left" > Bookshop is an online bookstore with a mission to financially support local, independent bookstores.
-We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime. They’re also anchors for our downtowns and communities. </p>
-  		</div>
-  	</center>
-
-<br><br>
-
-  	
-	<div class="page-header" id="list">
-  		<h2 class="text-capitalize">list of books</h2>
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class="text-capitalize ">List of Sports</h2>
   </div>
 
-<div class="bg-primary book_head" data-toggle="collapse" data-target="#hp" >
-    <span class="glyphicon glyphicon-book" ></span> Harry Potter<i class="fa fa-sort-desc" ></i>
+    <!--add data-toggle="modal" below in the div tag-->
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 sport"  data-toggle="modal" data-target="#basketball">
+    <img src="basketball.jpg" class="img-responsive">
+    <hr >
+    <p class="text-primary">Basketball</p>
   </div>
 
-  <div id="hp" class="collapse">
-
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-          <!-- add the class "img-thumbnail" along with "img-responsive"-->
-	  		<img src="hp.jpg" class="img-responsive img-thumbnail "> 
-	  </div>
-      <!-- add the  class 
-     "col-lg-9 col-md-9 col-sm-9 col-xs-12" along with "book_text" -->
-
-	  <div class=" book_text col-lg-9 col-md-9 col-sm-9 col-xs-12" >
-		  <h5 class="text-success text-left text-capitalize">Harry Potter and the Deathly Hallows is a rousing culmination of seven books' worth of page-turning plot 
-        <span class="glyphicon glyphicon-star" ></span>
-        <span class="glyphicon glyphicon-star" ></span>
-        <span class="glyphicon glyphicon-star" ></span>
-        <span class="glyphicon glyphicon-star" ></span>
-        <span class="glyphicon glyphicon-star" ></span>
-      </h5>
-		  <p>It doesn't rely solely on its previous installments to wow you. There are new characters, new dangers, and new twists to keep you guessing. It's a satisfying conclusion to a much-loved series.</p>
-	  </div>
-  
+  <!-- Modal -->
+  <div class="modal fade" id="basketball">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content" >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">basketball</h4>
+        </div>
+        <!--add bootstrap class modal-body-->
+        <div class="modal-body">
+          <img src="basketball.jpg" class="img-responsive img_modal">
+          <p class="p_modal">Basketball, game played between two teams of five players each on a rectangular court, usually indoors. Each team tries to score by tossing the ball through the opponent’s goal, an elevated horizontal hoop and net called a basket.<br>
+          <a href="https://en.wikipedia.org/wiki/Basketball"><b>ABOUT BASKETBALL</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
   </div>
 
+
+
+  </div>
 
 
 </body>

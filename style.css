@@ -1,51 +1,32 @@
 
-input
+
+.book
 {
-    background: grey
+  cursor: pointer;
 }
 
-.book_mainDiv
+.sport hr
 {
-    border: 1px solid #c7c7c7;
-    padding-left: 0px;
-    padding-right: 0px;
-    float: none
+  margin-bottom: 10px;
 }
 
-.book_mainDiv img
+.modal-content
 {
-  width: 100%;
+  margin-top: 100px;
 }
 
-.book_mainDiv hr
-{
-    width: 230px; 
-}
-
-.book_mainDiv h5 , .book_mainDiv p
-{
-margin-left: 20px;
-}
-
-
-.book_head
-{
-    font-size: 20px;
-    padding: 6px 22px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    width: 100%;
+.img_modal
+  {
     display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
 }
 
-.book_head i
-{
-float: right;
-}
-
-.book_text span
-{
-color: #ff7700;
-}
 
 
